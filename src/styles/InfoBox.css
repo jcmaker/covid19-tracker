@@ -1,0 +1,14 @@
+.infoBox {
+  background-color: transparent;
+  /* background-color: #55575c; */
+  color: whitesmoke;
+  border: 1px solid gray;
+}
+
+.MuiTypography-colorTextSecondary {
+  color: white;
+}
+
+.infoBox__title {
+  color: #fafafa;
+}

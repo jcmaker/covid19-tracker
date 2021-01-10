@@ -1,6 +1,8 @@
 @import "InfoBox.css";
 
 @import "App.css";
+@import "TableInfo.css";
+@import "Map.css";
 
 * {
   margin: 0;

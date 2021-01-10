@@ -3,12 +3,43 @@
   /* background-color: #55575c; */
   color: whitesmoke;
   border: 1px solid gray;
+  flex: 1;
+}
+
+.infoBox > img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.infoBox:nth-child(1) {
+  border-top: 5px solid red;
+}
+
+.infoBox:nth-child(1) > .infoBox__title > h2 {
+  color: red;
+}
+
+.infoBox:nth-child(2) {
+  border-top: 5px solid royalblue;
+}
+
+.infoBox:nth-child(2) > .infoBox__title > h2 {
+  color: royalblue;
+}
+
+.infoBox:nth-child(3) {
+  border-top: 5px solid black;
 }
 
 .MuiTypography-colorTextSecondary {
-  color: white;
+  color: black;
 }
 
 .infoBox__title {
-  color: #fafafa;
+  color: black;
+}
+
+.MuiPaper-root,
+.MuiCard-root {
+  background-color: #55575c;
 }

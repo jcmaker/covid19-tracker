@@ -1,4 +1,5 @@
 import React from "react";
+import numeral from "numeral";
 
 function TableInfo({ countries }) {
   return (
@@ -6,7 +7,7 @@ function TableInfo({ countries }) {
       {countries.map(({ country, cases }) => (
         <tr>
           <td>{country}</td>
-          <td>{cases}</td>
+          <td>{numeral(cases).format()}</td>
         </tr>
       ))}
     </div>

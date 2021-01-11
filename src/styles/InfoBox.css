@@ -31,6 +31,10 @@
   border-top: 5px solid black;
 }
 
+.infoBox:not(:last-child) {
+  margin-right: 12px;
+}
+
 .MuiTypography-colorTextSecondary {
   color: black;
 }
